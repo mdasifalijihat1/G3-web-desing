@@ -1,0 +1,46 @@
+
+/* nav bar design  */
+/* এই টাগ লেখার মধ্যমে আমাদের জত গুল display flex দরকার সব খানে ব্যবহার করতে পারবো */
+
+.display-flex{
+    display: flex;
+}
+
+
+/* সকল text এর কালার  */
+.dark-gree{
+    color: #424242;
+}
+.dark-orang{
+    color: #FF900E;
+}
+.bd-color{
+    background: #FF900E;
+}
+/* nav style এই টেগ টা কাজ করে যে কোন জিনিষ ২ টা দুই দিকা রাখার justify-content: space-between; */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-link{
+    
+}
+/* nav বারে নিচে দাগ ও সাইডে ফোটা উঠাই  */
+.nav-item{
+   list-style: none;
+   margin: 30px; 
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
